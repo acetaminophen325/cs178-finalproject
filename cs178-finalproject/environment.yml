@@ -1,0 +1,29 @@
+name: cs178-imdb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # ---- Core Python ----
+  - python=3.11
+
+  # ---- Numeric / data ----
+  - numpy
+  - pandas
+  - scikit-learn
+
+  # ---- Plotting / notebooks ----
+  - matplotlib
+  - jupyter
+  - ipykernel
+
+  # ---- NLP helpers ----
+  - nltk
+
+  # ---- Utilities ----
+  - pip
+  - joblib
+  - tqdm
+
+  # ---- Deep learning (via pip) ----
+  - pip:
+      - torch           # CPU-only is fine for this class
