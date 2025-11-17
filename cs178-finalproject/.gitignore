@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+jupyter_notebook_config.py
+
+# =========================
+# Data (DO NOT COMMIT LARGE DATA)
+# =========================
+data/raw/
+data/processed/
+
+# If you want to check in tiny sample data, you can undo ignore per-file:
+# !data/sample/
+# !data/sample/*.csv
+
+# =========================
+# Results / Outputs
+# =========================
+results/
+*.log
+
+# =========================
+# OS / Editor files
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# Other editors
+*.swp
+*.swo
+
+# =========================
+# LaTeX/build artifacts (if you use LaTeX for report)
+# =========================
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
